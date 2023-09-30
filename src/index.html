@@ -10,11 +10,11 @@
 </head>
 
 <body>
-  <section class="intro" id="intro">
+  <div class="intro" id="intro">
     <div class="container-fluid">
       <!-----------start of NAVBAR SECTION------------------->
       <div class="row">
-        <nav class="navbar custom-navbar navbar-expand-lg fixed-top">
+        <nav class="navbar custom-navbar navbar-expand-lg fixed-top" id="navBar">
           <div class="container px-0">
             <div class="navbar-header">
               <button class="navbar-toggler btn btn-icon" type="button" data-bs-toggle="collapse"
@@ -22,25 +22,25 @@
                 aria-label="Toggle navigation">
                 <i class="fas fa-bars fa-xl"></i>
               </button>
-              <a href="#" class="me-5">
-                <i class="fa-solid fa-plane mt-2 fa-4x" style="transform: rotate(-45deg);"></i>
-                <h2>سفرني</h2>
-              </a>
+              <div class="me-5 safarni">
+                <i class="fa-solid fa-plane mt-2 fa-2x" style="transform: rotate(-45deg);"></i>
+                <h2 class="">سفرني</h2>
+              </div>
             </div>
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item active">
-                  <a href="#" class="nav-link" aria-current="page">الصفحة الرئيسية</a>
+                  <a href="./index.html" class="nav-link" aria-current="page">الصفحة الرئيسية</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown2" role="button"
                     data-bs-toggle="dropdown" aria-expanded="false"> الجولات</a>
                   <ul class="dropdown-menu custom-dropdown-menu">
                     <li>
-                      <a href="#" class="dropdown-item">الجولة الاولي</a>
+                      <a href="./tour_1.html" class="dropdown-item">الجولة الاولي</a>
                     </li>
                     <li>
-                      <a href="#" class="dropdown-item">الجولة الثانية</a>
+                      <a href="./tour_2.html" class="dropdown-item">الجولة الثانية</a>
                     </li>
                   </ul>
                 </li>
@@ -60,30 +60,31 @@
         </nav>
         <!--- انتهاء القائمه العلويه----->
       </div>
-      <!-----------End of NAVBAR SECTION------------------->
-      <div id="carouselExampleFade" class="carousel slide text-center" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <h2>الشركة السياحية الأفضل في الوطن العربي</h2>
-            <p>هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له</p>
-          </div>
-          <div class="carousel-item">
-            <h2>اهلا بك مع صناع الرحلات الافضل علي الاطلاق</h2>
-            <p> ان كنت تبحث عن سكن او جولة سياحيةلتثضي افضل الاوقات مع الاهل اة الاصدقاء فقد وجدت طلبك</p>
-          </div>
+    </div>
+    <!-----------End of NAVBAR SECTION------------------->
+    <div id="carouselExampleFade" class="carousel slide text-center" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>الشركة السياحية الأفضل في الوطن العربي</h2>
+          <p>هدفنا مساعدتك وتيسير أمورك، لا تتردد بالتواصل معنا فنحن هنا لنساعدك على إيجاد كل ما تحتاج له</p>
+        </div>
+        <div class="carousel-item">
+          <h2>اهلا بك مع صناع الرحلات الافضل علي الاطلاق</h2>
+          <p> ان كنت تبحث عن سكن او جولة سياحيةلتثضي افضل الاوقات مع الاهل اة الاصدقاء فقد وجدت طلبك</p>
         </div>
       </div>
-  </section>
+    </div>
+  </div>
   </div>
   <!-------------------START Of CAROUSEL SECTION-------------------->
   <!-------------------End Of CAROUSEL SECTION-------------------->
-  <section class="services" id="services">
+  <div class="services" id="services">
     <div class="container-fluid">
-      <h3 class="text-center mb-5">خدامتنا</h3>
+      <h3 class="text-center mb-5 headings">خدامتنا</h3>
       <div class="custom-services">
         <div class="container px-0">
           <div class="row text-center">
-            <div class="col-md-4 offset-md-2">
+            <div class="col-lg-4 col-12 offset-lg-2">
               <div class="service-1">
                 <div class="custom-icon">
                   <i class="fa-solid fa-bed"></i>
@@ -97,7 +98,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-12">
               <div class="service-1">
                 <div class="custom-icon">
                   <i class="fa-solid fa-car"></i>
@@ -110,7 +111,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-4 offset-md-2">
+            <div class="col-lg-4 col-12 offset-lg-2 ">
               <div class="service-1">
                 <div class="custom-icon">
                   <i class="fa-solid fa-tornado"></i>
@@ -124,7 +125,7 @@
                 </p>
               </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-12">
               <div class="service-1">
                 <div class="custom-icon">
                   <i class="fa-solid fa-plane-arrival"></i>
@@ -142,7 +143,127 @@
         </div>
       </div>
     </div>
-  </section>
+  </div>
+
+  <div class="tours" id="tours">
+    <div class="container-fluid">
+      <h3 class="text-center headings mb-5">الجولات</h3>
+      <div class="custom-cards">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 offset-md-2">
+              <div class="card">
+                <img src="./images/francois-le-nguyen-VsY4IUi44Zo-unsplash.jpg" class="card-img-top" alt="second_tour">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <h5 class="float-start mt-1"> اهرامات مصر بالجيزه</h5>
+                    <p class="price float-end">35$</p>
+                  </div>
+                  <p class="d-block card-text"> تتصف أهرامات مصر الثلاثة بأنها أحد أهم عجائب الدنيا السبعة في جمهورية
+                    مصر تقع على هضبة الجيزة في محافظة الجيزة،</p>
+                  <div class="rating">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                  </div>
+                  <button type="button" name="button" class="btn custom-btn custom-btn"><a href="./tour_1.html">انتقل للجولة</a> </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="./images/osman-koycu-c6qF_lYvu2I-unsplash.jpg" class="card-img-top" alt="first_tour">
+                <div class="card-body">
+                  <div class="clearfix">
+                    <h5 class="float-start mt-1"> رحله الي اسطنبول</h5>
+                    <p class="price float-end">205$</p>
+                  </div>
+                  <p class="d-block card-text">إسطنبول هي واحدة من أكبر و أجمل مدن تركيا وهي مصنفة ضمن أكثر المدن
+                    السياحية جذباً للسياح في العالم فهي الافضل </p>
+                  <div class="rating">
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                    <i class="fa-solid fa-star active"></i>
+                  </div>
+                  <button type="button" name="button" class="btn custom-btn custom-btn"><a href="./tour_2.html">انتقل للجولة</a> </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contact" id="contact">
+    <div class="container-fluid px-0">
+      <h3 class="headings text-center mb-5">تواصل معنا</h3>
+      <div class="custom-img">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-12">
+              <form class="form-items">
+                <div class="row">
+                  <div class="col-md-6">
+                    <input type="name" class="form-control form-control-lg custom-form-control " name="name"
+                      placeholder="ادخل الهاتف" required>
+                  </div>
+                  <div class="col-md-6">
+                    <input type="name" class="form-control form-control-lg custom-form-control" name="email"
+                      placeholder="البريد الالكتروني" required>
+                  </div>
+                  <div class="col-12">
+                    <input type="title" class="form-control form-control-lg custom-form-control" name="title"
+                      placeholder="ادخل العنوان بالتفصيل " required>
+                  </div>
+                  <button type="submit" class="btn my-1 custom-button">
+                    ارسال
+                    <i class="far fa-paper-plane"></i>
+                  </button>
+                </div>
+              </form>
+            </div>
+            <div class="col-lg-6 col-12 map">
+              <div id="map">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.1828591189865!2d55.274284085515625!3d25.197055137890786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f434409a6abc5%3A0x33acfe7a9a726c38!2z2KjYsdisINiu2YTZitmB2Kkg2KfZhNil2YXYp9ix2KfYqiDYp9mE2LnYsdio2YrYqSDYp9mE2YXYqtit2K_YqQ!5e0!3m2!1sar!2s!4v1593965284754!5m2!1sar!2s"
+                  width="100%" height="300" frameborder="0" style="border: 2px;" allowfullscreen="" aria-hidden="false"
+                  tabindex="0"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <footer class="custom-footer">
+      <div class="clearfix">
+    <div class="social float-end">
+      <div class="social-icons">
+        <a href="#"> <i class="fa-brands fa-facebook large"></i></a>
+      </div>
+      <div class="social-icons">
+        <a href="#"> <i class="fa-brands fa-google large"></i></a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-twitter large"></i></a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-youtube large"></i></a>
+      </div>
+      <div class="social-icons">
+        <a href="#"><i class="fa-brands fa-linkedin large"></i></a>
+      </div>
+    </div>
+    <p class="float-start">كل الحقوق محفوظه @2023</p>
+  </div>
+  </footer>
+</div>
+
 </body>
 
 </html>

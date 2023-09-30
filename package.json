@@ -23,6 +23,7 @@
     "@popperjs/core": "^2.11.8",
     "bootstrap": "5.2",
     "css-minimizer-webpack-plugin": "^5.0.1",
+    "jquery": "^3.7.1",
     "rtlcss-loader": "^1.0.3",
     "webpack-dev-server": "^4.15.1"
   }
