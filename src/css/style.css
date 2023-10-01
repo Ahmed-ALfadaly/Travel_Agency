@@ -10,6 +10,9 @@
 html {
   overflow-x: hidden;
 }
+.container-fluid{
+  padding: 0px 0px !important;
+}
 
 body {
   font-family: "JF Flat Regular", "Segoe UI", Tahoma, Geneva, Verdana,
@@ -502,7 +505,7 @@ CONTACT2
 /*=============================================================
 ====================single page tour========================*/
 .banner1 {
-  background-image: url(../images/tour_1/banner.jpg);
+  background-image: url(../images/tour_1/fynn-schmidt-hKwWA1nNKt4-unsplash.jpg);
   background-position: center center;
   background-size: cover;
   background-position: center 50%;
@@ -631,6 +634,99 @@ h2.headings{
 .Offers .container .carousel-item .card{
   height: 530px;
 }
+
+/*=============================================================
+====================single page tour 2========================*/
+#baner2 .single {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  transform: translateY(-300px);
+}
+.banner2 {
+  background-image: url(../images/tour_2/fatih-yurur-kNSREmtaGOE-unsplash.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-position: center 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+  width: 100%;
+  height: 600px;
+  z-index: -1;
+}
+
+.banner2::after {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.tour-details .cont-top .custom-tour{
+  position: relative;
+  top: 50px;
+  width: 260px;
+  height: 260px;
+  background-color: #fff;
+  margin-bottom: 50px !important;
+}
+.tour-details .cont-top .custom-tour .thecard{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform-style:preserve-3d ;
+  transition: all 0.8s ease;
+  margin-top: 20px;
+}
+.tour-details .cont-top .custom-tour .thecard:hover{
+  transform: rotateY(180deg);
+}
+.tour-details .cont-top .custom-tour .front{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #0573f0de;
+  border: 2px solid #05a9f0;
+  color:#fff;
+  border-radius: 20px !important;
+}
+.tour-details .cont-top .custom-tour .front h2{
+ margin-top: 60px;
+ color: #faf9f9;
+}
+.tour-details .cont-top .custom-tour .back{
+  position: absolute;
+  width: 100%;
+  border-radius: 20px !important;
+  height: 100%;
+  padding: 10px 15px;
+  backface-visibility: hidden;
+  background: #6c6b6b;
+  color:#fff;
+  text-align: center;
+  font-size: 16px;
+  transform: rotateY(180deg);
+}
+#gallery .gallery-work2 img {
+  width: 95%;
+  height: 300px;
+  margin-top: 25px;
+  z-index: -1 !important;
+  cursor: pointer;
+  transition: all 0.9s ease-out;
+}
+#gallery .gallery-work2 img:hover{
+  height: 320px;
+  width: 100%;
+}
+
+
 
 
 
