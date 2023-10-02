@@ -425,8 +425,7 @@ footer.custom-footer p{
 }
 
 .login-1,
-.login-2,
-.banner {
+.login-2 {
   background-color: #000 !important;
   z-index: 100;
 }
@@ -637,6 +636,23 @@ h2.headings{
 
 /*=============================================================
 ====================single page tour 2========================*/
+
+.baner2 nav .nav-item .nav-link:hover {
+  border-bottom: 1px solid #fc5756;
+  color: #fc5756;
+}
+
+.baner2 nav .nav-item.active .nav-link {
+  border-bottom: 1px solid #fc5756;
+  color: #fc5756;
+}
+
+.baner2 nav .nav-item .dropdown-item:hover {
+  background-color: #ffaa33;
+}
+.baner2 nav .nav-item .dropdown-item.active {
+  background-color: #ffaa33;
+}
 #baner2 .single {
   color: #fff;
   font-size: 30px;
@@ -667,7 +683,7 @@ h2.headings{
   z-index: -1;
 }
 
-.tour-details .cont-top .custom-tour{
+.tour-details .cont-top2 .custom-tour2{
   position: relative;
   top: 50px;
   width: 260px;
@@ -675,7 +691,7 @@ h2.headings{
   background-color: #fff;
   margin-bottom: 50px !important;
 }
-.tour-details .cont-top .custom-tour .thecard{
+.tour-details .cont-top2 .custom-tour2 .thecard{
   position: absolute;
   width: 100%;
   height: 100%;
@@ -683,31 +699,31 @@ h2.headings{
   transition: all 0.8s ease;
   margin-top: 20px;
 }
-.tour-details .cont-top .custom-tour .thecard:hover{
+.tour-details .cont-top2 .custom-tour2 .thecard:hover{
   transform: rotateY(180deg);
 }
-.tour-details .cont-top .custom-tour .front{
+.tour-details .cont-top2 .custom-tour2 .front{
   position: absolute;
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background-color: #0573f0de;
-  border: 2px solid #05a9f0;
+  background-color: #ffaa33;
+  border: 2px solid #ffaa33;
   color:#fff;
   border-radius: 20px !important;
 }
-.tour-details .cont-top .custom-tour .front h2{
+.tour-details .cont-top2 .custom-tour2 .front h2{
  margin-top: 60px;
  color: #faf9f9;
 }
-.tour-details .cont-top .custom-tour .back{
+.tour-details .cont-top2 .custom-tour2 .back{
   position: absolute;
   width: 100%;
   border-radius: 20px !important;
   height: 100%;
   padding: 10px 15px;
   backface-visibility: hidden;
-  background: #6c6b6b;
+  background: #fc5756;
   color:#fff;
   text-align: center;
   font-size: 16px;
@@ -725,8 +741,134 @@ h2.headings{
   height: 320px;
   width: 100%;
 }
+.baner2 h2.headings2 {
+  color: #fc5756;
+  position: relative;
+}
 
+.baner2 h2.headings2::after {
+  content: "";
+  position: absolute;
+  top: 45px;
+  left: 48%;
+  background-color: #fc5756;
+  width: 40px;
+  height: 2px;
+}
+h3.headings2 {
+  font-size: 38px;
+  color: #fc5756;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 50px;
+}
 
+h3.headings2::after {
+  content: "";
+  position: absolute;
+  top: 55px;
+  left: 49%;
+  background-color: #fc5756;
+  width: 40px;
+  height: 2px;
+}
+#tour-details .content2 {
+  background-color: #faf9f9;
+  padding: 10px;
+  border-radius: 10px;
+  width: 80%;
+  max-height: 520px;
+  border-right: 5px solid #ffca2f;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+}
+#tour-details .content2 p {
+  padding: 0px 20px;
+  margin: 0px;
+}
+#tour-details .cont-top2 .custom-expression{
+  color: #000;
+  position: absolute;
+  bottom: -50px;
+  left: 0px;
+}
+#tour-details .cont-top2 .custom-expression .svg-inline--fa{
+  padding: 5px 5px;
+  background-color: #e6e1e1;
+  border-radius: 30%;
+  font-size: 20px;
+  margin-right: 10px;
+}
+#tour-details .cont-top2 .custom-expression button span{
+  background-color: #ffaa33 !important;
+}
+input.danger{
+  border-color: #fc5756 !important;
+}
+.custom-btn2 {
+  background-color: #fec008;
+  color: #fff !important;
+}
+.custom-btn2:hover{
+  border: 1px solid #ffaa33;
+}
+.custom-btn2:hover a{
+  color: #fe9501 !important;
+}
+.rating2 {
+  color: #ffaa33;
+  margin-bottom: 15px;
+}
+.card p.price2 {
+  font-size: 25px;
+  color: #fc5756;
+  font-weight: 500;
+}
+.card h5 {
+  font-size: 24px;
+  line-height: 25px;
+  color: #333;
+}
+ .custom-button2 {
+  background-color: #fc5756;
+  color: #fff;
+  width: 20%;
+  margin-right: 20px;
+  transition: all .5s ease-in;
+}
+ .custom-button2:hover,
+ .custom-button2:focus,
+ .custom-button2:active:hover,
+ .custom-button2:active:focus
+ {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
+footer.custom-footer .social2 {
+  padding: 20px;
+  margin-left: 20px;
+}
+footer.custom-footer .social2 .social-icons{
+  display: inline-block;
+  background-color: transparent;
+  border: 1px solid #fff;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: relative;
+  transition: all 0.8s ease;
+}
+footer.custom-footer .social2 .social-icons:hover{
+  background-color: #fc5756;
+}
+footer.custom-footer .social2 .social-icons a{
+  position: absolute;
+  color: #fff;
+  top: 5px;
+  right: 7px;
+}
 
 
 
@@ -743,6 +885,10 @@ h2.headings{
   .service-1 {
     height: 400px !important;
     width: 100% !important;
+  }
+  .Offers{
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   #carouselExampleFade {

@@ -14,3 +14,10 @@ $(window).scroll(function () {
     }
 
 });
+
+document.querySelectorAll('.custom-btn').forEach(item => {
+    item.addEventListener("click", () => {
+    alert('! تريد الاشتراك بالجولة');
+    })
+});
+
