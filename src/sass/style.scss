@@ -1,0 +1,75 @@
+@import './variables';
+@import './mixins';
+@import './custom-cards';
+
+.search-btn {
+    background-color: $color-blue;
+    color: $color-white;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  
+  .search-btn:hover,
+  .search-btn:active,
+  .search-btn:focus,
+  .search-btn:active:hover,
+  .search-btn:active:focus {
+    @include button-style($color-blue);
+  }
+  .tour-details .cont-top2 .custom-tour2 .front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    background-color: $color-warning;
+    border: 2px solid $color-warning;
+    color:$color-white;
+    border-radius: 20px !important;
+  }
+  .tour-details .cont-top2 .custom-tour2 .back{
+    position: absolute;
+    width: 100%;
+    border-radius: 20px !important;
+    height: 100%;
+    padding: 10px 15px;
+    backface-visibility: hidden;
+    background: $color-danger;
+    color:$color-white;
+    text-align: center;
+    font-size: 16px;
+    transform: rotateY(180deg);
+  }
+  .custom-btn {
+    background-color: $color-blue;
+    color: #fff !important;
+  }
+  .custom-btn:hover,
+  .custom-btn:focus,.custom-btn:active:hover,.custom-btn:active:focus{
+    border: 1px solid $color-blue-dark;
+  }
+  .custom-btn:hover a,
+  .custom-btn:focus a,.custom-btn:active:hover a,.custom-btn:active:focus a{
+    color: $color-blue-dark !important;
+  }
+  
+.custom-btn2:hover,
+.custom-btn2:focus,
+.custom-btn2:active:hover,
+.custom-btn2:active:focus{
+  @include button-style($color-warning)
+}
+.custom-btn2:hover a,
+.custom-btn2:focus a,
+.custom-btn2:active:hover a,
+.custom-btn2:active:focus a{
+  color: $color-warning !important;
+}
+.custom-button2:hover,
+ .custom-button2:focus,
+ .custom-button2:active:hover,
+ .custom-button2:active:focus
+ {
+  background-color: #fff;
+  color: #000;
+  transform: translateY(-2px);
+}
