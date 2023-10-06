@@ -16,12 +16,13 @@ $(window).scroll(function () {
 
 });
 
+
 document.querySelectorAll('.custom-btn').forEach(item => {
     item.addEventListener("click", () => {
     alert('! تريد الاشتراك بالجولة الاولي');
     })
 });
-document.querySelectorAll('.custom-btn').forEach(item => {
+document.querySelectorAll('.custom-btn2').forEach(item => {
     item.addEventListener("click", () => {
     alert('! تريد الاشتراك بالجولة الثانية');
     })

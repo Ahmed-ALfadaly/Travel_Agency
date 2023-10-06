@@ -51,6 +51,18 @@
   .custom-btn:focus a,.custom-btn:active:hover a,.custom-btn:active:focus a{
     color: $color-blue-dark !important;
   }
+  .custom-btn22{
+    background-color: $color-blue;
+    color: #fff !important;
+  }
+  .custom-btn22:hover,
+  .custom-btn22:focus,.custom-btn22:active:hover,.custom-btn22:active:focus{
+    border: 1px solid $color-blue-dark;
+  }
+  .custom-btn22:hover a,
+  .custom-btn22:focus a,.custom-btn22:active:hover a,.custom-btn22:active:focus a{
+    color: $color-blue-dark !important;
+  }
   
 .custom-btn2:hover,
 .custom-btn2:focus,
